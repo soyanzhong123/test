@@ -27,7 +27,7 @@ $c=simplexml_load_file("nima.xml");//载入当前目录下的nima.xml文件
 print_r($c) ;
 echo '<br>'.$c->name->haha; //默认为name[0]的哈哈标签
 echo '<br>'.$c->name[0]->haha;//注意最外面的<book>标签不算第一层
-echo '<br>'.$c->name[1]->haha;//只有在同一级存在相同标签名时，才可以使用数组形式调用。
+echo '<br>'.$c->name[0]->haha;//只有在同一级存在相同标签名时，才可以使用数组形式调用。
                               //这里的<name>标签有两个。name[1]将调用第二个name标签
 
 
