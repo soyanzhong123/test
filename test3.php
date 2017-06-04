@@ -6,7 +6,7 @@ class Test
 
     private function haha()
     {
-        echo "haha";
+        echo "nima";
     }
 }
 $t =new Test();
