@@ -1,0 +1,14 @@
+{
+    "name": "soyanzhong123/test",
+    "description": "this is test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "soyanzhong123",
+            "email": "493703844@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
